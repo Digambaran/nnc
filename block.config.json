@@ -1,0 +1,13 @@
+{
+  "name": "nnc",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Digambaran/nnc",
+    "ssh": "git@github.com:Digambaran/nnc.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
